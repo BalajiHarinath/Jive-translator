@@ -2,7 +2,7 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txtinput");
 var outputDiv = document.querySelector("#output-text");
 
-var serverURL = "https://api.funtranslations.com/translate/emoji.json";
+var serverURL = "https://api.funtranslations.com/translate/jive.json";
 
 function getTranslatorURL(input){
     return serverURL + "?" + "text=" + input
